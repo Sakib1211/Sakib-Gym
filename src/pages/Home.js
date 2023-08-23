@@ -4,7 +4,6 @@ import { Box } from "@mui/material";
 import Exercises from "../components/Exercises";
 import SearchExercises from "../components/SearchExercises";
 import HeroBanner from "../components/HeroBanner";
-import BmiCalculator from "../components/BmiCalculator";
 
 const Home = () => {
   const [bodyPart, setBodyPart] = useState("all");
